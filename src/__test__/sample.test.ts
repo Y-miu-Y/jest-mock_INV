@@ -9,11 +9,11 @@ jest.mock("../sample", () => {
 });
 
 describe("モックお試し", () => {
-  it("テスト確認", async() => {
+  it("テスト確認", async () => {
     expect(true).toBeTruthy();
   });
 
-  it("モック", async() => {
+  it("モック", async () => {
 
     expect(true).toBeTruthy();
     sample().then((res) => {
